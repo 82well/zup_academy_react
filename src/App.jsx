@@ -24,7 +24,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="App-Header">
       <h1>Mini Dashboard</h1>
       <MainMetrics />
       <button onClick={handleShowAdvanced}>Mostrar Painel Avançado</button>
